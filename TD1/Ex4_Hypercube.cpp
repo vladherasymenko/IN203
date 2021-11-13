@@ -28,7 +28,6 @@ int main(int argc, char* argv[]) {
 	}
 	MPI_Status Stat;
 
-	//etape 1
 	int jeton_buf;
 
 	int check_if_recieved[nbp] = { 0 };
