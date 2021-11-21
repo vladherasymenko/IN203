@@ -167,8 +167,9 @@ int main(int argc, char* argv[])
     //const int maxIter = 16777216;
     const int maxIter = 8 * 65536;
     auto iters = computeMandelbrotSet(W, H, maxIter, nbp, rank);
-    savePicture("mandelbrot.tga", W, H, iters, maxIter);
-
+    if (rank == 0) {
+        savePicture("mandelbrot.tga", W, H, iters, maxIter);
+    }
     MPI_Finalize();
     return EXIT_SUCCESS;
 }
