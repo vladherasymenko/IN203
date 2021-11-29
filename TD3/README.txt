@@ -40,6 +40,6 @@
 	l'application n'est pas, en fait, memory bound pour N = 1024 sur ma machine.  [la taille des blocs = 128]
 
 	7. Après avoir parallélisé le produit matrice-matrice par bloc, on obtient, encore une fois,
-	le résultat juste légèrement qu'en question 3 : pour N =1024, le temps de calcul : 5.71s avec 454 MFlops
+	le résultat juste légèrement qu'en question 3 : pour N =1024, le temps de calcul : 4.71s avec 454 MFlops
 
 
