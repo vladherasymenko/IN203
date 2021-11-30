@@ -42,4 +42,18 @@
 	7. Après avoir parallélisé le produit matrice-matrice par bloc, on obtient, encore une fois,
 	le résultat juste légèrement qu'en question 3 : pour N =1024, le temps de calcul : 4.71s avec 454 MFlops
 
+3. Je reviendrai ici 01/12/2021 ...
+
+4. Temps de calcul en séquenciel: 
+	-Bhudda 1 : 25.61s
+	-Bhudda 2 : 30.73s
+	-Bhudda 3 : 1.85s
+	-Ensemble : 58.19s
+
+   Temps de calcul en parallèle sur 4 coeurs (physiques):
+ 	-Bhudda 1 : 7.22s
+	-Bhudda 2 : 8.25s
+	-Bhudda 3 : 0.51s
+	-Ensemble : 15.98s
+	Donc, en somme, le speed-up est égal à 3.64 ce qui est très proche de limite maximale de 4 (sur 4 processeurs)
 
