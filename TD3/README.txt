@@ -45,15 +45,15 @@
 3. Je n'ai pas réussi a le faire
 
 4. Temps de calcul en séquenciel: 
-	-Bhudda 1 : 25.61s
-	-Bhudda 2 : 30.73s
-	-Bhudda 3 : 1.85s
-	-Ensemble : 58.19s
+	-Bhudda 1 : 4.18s
+	-Bhudda 2 : 4.27s
+	-Bhudda 3 : 0.27s
+	-Ensemble : 8.72s
 
    Temps de calcul en parallèle sur 4 coeurs (physiques):
- 	-Bhudda 1 : 7.22s
-	-Bhudda 2 : 8.25s
-	-Bhudda 3 : 0.51s
-	-Ensemble : 15.98s
-	Donc, en somme, le speed-up est égal à 3.64 ce qui est très proche de limite maximale de 4 (sur 4 processeurs)
+ 	-Bhudda 1 : 1.57s
+	-Bhudda 2 : 1.18s
+	-Bhudda 3 : 0.08s
+	-Ensemble : 2.83s
+	Donc, en somme, le speed-up est égal à 3.08 ce qui est très proche de limite maximale de 4 (sur 4 processeurs)
 
