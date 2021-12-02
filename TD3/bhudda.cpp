@@ -164,8 +164,11 @@ int main()
     for ( unsigned i = 0; i < height; ++i ) {
         for (unsigned j = 0; j < width; ++j ) {
             unsigned long ind = i*width+j;
+            #pragma omp atomic
             b1 += buddha1[ind];
+#pragma omp atomic
             b2 += buddha2[ind];
+#pragma omp atomic
             b3 += buddha3[ind];
         }
     }
