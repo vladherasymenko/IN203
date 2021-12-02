@@ -35,9 +35,9 @@
 	à O(3*N^2) lectures/écritures
 
 	5.-6. En utilisant le découpage en blocs (sans parallélisation) pour N = 1024, j'ai obtenu le
-	même résultat qu'en question 2, notemment : 17.24s avec 400 MFlops. C'est un résulata inattendu
+	même résultat qu'en question 2, notemment : 17.24s avec 400 MFlops. C'est un résulat inattendu
 	(et je crois que je me suis trompé dans le code), mais une explication possible pour cela est que 
-	l'application n'est pas, en fait, memory bound pour N = 1024 sur ma machine.  [la taille des blocs = 128]
+	l'application n'est plus, en fait, memory bound pour N = 1024 sur ma machine.  [la taille des blocs = 128]
 
 	7. Après avoir parallélisé le produit matrice-matrice par bloc, on obtient, encore une fois,
 	le résultat juste légèrement qu'en question 3 : pour N =1024, le temps de calcul : 4.71s avec 454 MFlops
